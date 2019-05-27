@@ -1,12 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="cardoza.uic.edu.ph.plantprototype.MainActivity">
 
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="489dp"
 
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:id="@+id/gh1"
+            android:layout_width="330dp"
+            android:layout_height="428dp"
+            android:layout_weight="1"
+            android:background="@layout/tableborder"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:backgroundTint="#d6f9da"
+            android:backgroundTintMode="multiply">
+
+            <ImageView
+                android:id="@+id/gh_ic1"
+                android:layout_width="151dp"
+                android:layout_height="fill_parent"
+                app:srcCompat="@drawable/ic_gh" />
+
+            <TextView
+                android:id="@+id/gh_t1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/gh_1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/gh2"
+            android:layout_width="330dp"
+            android:layout_height="428dp"
+            android:layout_weight="1"
+            android:background="@layout/tableborder"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:backgroundTint="#d6f9da"
+            android:backgroundTintMode="multiply">
+
+
+            <ImageView
+                android:id="@+id/gh_ic2"
+                android:layout_width="151dp"
+                android:layout_height="fill_parent"
+                app:srcCompat="@drawable/ic_gh" />
+            <TextView
+                android:id="@+id/gh_t2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/gh_1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/gh3"
+            android:layout_width="330dp"
+            android:layout_height="428dp"
+            android:layout_weight="1"
+            android:background="@layout/tableborder"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:backgroundTint="#d6f9da"
+            android:backgroundTintMode="multiply">
+            <ImageView
+                android:id="@+id/gh_ic3"
+                android:layout_width="151dp"
+                android:layout_height="fill_parent"
+                app:srcCompat="@drawable/ic_gh" />
+            <TextView
+                android:id="@+id/gh_t3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/gh_1" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/gh4"
+            android:layout_width="330dp"
+            android:layout_height="428dp"
+            android:layout_weight="1"
+            android:background="@layout/tableborder"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:backgroundTint="#d6f9da"
+            android:backgroundTintMode="multiply">
+
+
+        <ImageView
+            android:id="@+id/gh_ic4"
+            android:layout_width="151dp"
+            android:layout_height="fill_parent"
+            app:srcCompat="@drawable/ic_gh" />
+            <TextView
+                android:id="@+id/gh_t4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/gh_1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/gh5"
+            android:layout_width="330dp"
+            android:layout_height="428dp"
+            android:layout_weight="1"
+            android:background="@layout/tableborder"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:backgroundTint="#d6f9da"
+            android:backgroundTintMode="multiply">
+
+            <ImageView
+                android:id="@+id/gh_ic5"
+                android:layout_width="151dp"
+                android:layout_height="fill_parent"
+                app:srcCompat="@drawable/ic_gh" />
+            <TextView
+                android:id="@+id/gh_t5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/gh_1" />
+        </TableRow>
+    </TableLayout>
+    <com.google.android.material.floatingactionbutton
+        android:id="@+id/settingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"
+        app:backgroundTint="@android:color/holo_blue_light"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@android:color/white"
+    />
 
 
 </android.support.constraint.ConstraintLayout>

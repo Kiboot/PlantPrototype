@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
 
             String[] titles = new String[]{
-                    "Greenhouses", "page2"
+                    "Greenhouses", "Parameters"
             };
 
             @Override

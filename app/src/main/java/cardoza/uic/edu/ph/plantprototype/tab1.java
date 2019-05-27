@@ -25,7 +25,6 @@ public class tab1 extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-
     }
 
 }
