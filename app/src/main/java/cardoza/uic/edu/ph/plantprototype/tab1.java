@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 
-public class tab1 {
+public class tab1 extends Fragment {
 
     public static tab1 newInstance() {
         return new tab1();
@@ -23,6 +23,9 @@ public class tab1 {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+
+
     }
 
 }
