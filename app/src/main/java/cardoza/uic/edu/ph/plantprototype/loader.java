@@ -1,5 +1,6 @@
 package cardoza.uic.edu.ph.plantprototype;
 
-public class loader {
+
+public class loader{
 
 }

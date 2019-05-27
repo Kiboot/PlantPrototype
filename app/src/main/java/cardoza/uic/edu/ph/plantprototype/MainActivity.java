@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate( savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTabLayout =  findViewById(R.id.tabs);
+        TabLayout mTabLayout =  findViewById(R.id.tabs);
         mViewPager =  findViewById(R.id.viewpager);
 
         mViewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
 
             String[] titles = new String[]{
-                    "page1", "page2"
+                    "Greenhouses", "page2"
             };
 
             @Override
@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
         });
         mTabLayout.setupWithViewPager(mViewPager);
 
+        mTabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager){});
+        mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mTabLayout));
 
     }
 }
