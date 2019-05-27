@@ -1,8 +1,16 @@
-<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/cycle_interpolator">
-<objectAnimator
-    android:duration="6000"
-    android:propertyName="rotation"
-    android:repeatCount="infinite"
-    android:valueFrom="0"
-    android:valueTo="360" />
-</set>
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ybq.android.loading.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp" />
+
+</com.github.ybq.android.loading.SquareFrameLayout>
