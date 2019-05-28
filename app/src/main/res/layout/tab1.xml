@@ -142,7 +142,7 @@
         </TableRow>
     </TableLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/settingBtn"
+        android:id="@+id/btn_new"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_margin="24dp"
