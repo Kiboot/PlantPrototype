@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Plantera</string>
     <string name="gh_1">Lettuce in Coco-Starter</string>
+    <string name="qr_s1">Scan the QR Code that is generated for this grenhouse. Make sureto align it well.</string>
 </resources>
